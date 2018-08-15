@@ -21,6 +21,25 @@ class ApplicationController < Sinatra::Base
       
   end
 
+post '/results2' do
+    
+    letter_array = params.values 
+    answer = letter_array.join("")
+    
+    puts answer
+    return answer
+      
+  end
+  
+  post '/results3' do
+    
+    letter_array = params.values 
+    answer = letter_array.join("")
+    
+    puts answer
+    return answer
+      
+  end
 
 
 
