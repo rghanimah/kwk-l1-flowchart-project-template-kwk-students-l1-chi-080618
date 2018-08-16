@@ -66,8 +66,22 @@ post '/results2' do
   get '/about_us' do
     erb :about_us
   end
+  
+  get '/foundation_quiz' do
+    erb :foundation_quiz
+  end
+  
+  get '/lipstick_quiz' do
+    erb :lipstick_quiz
+  end
 
-
+  get '/primer_quiz' do
+    erb :primer_quiz
+  end
+  
+  get '/skincare_quiz' do
+    erb :skincare_quiz
+  end
 
 
 
