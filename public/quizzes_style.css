@@ -1,7 +1,7 @@
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: white;
     border: none;
-    color: white;
+    color: gray;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -10,4 +10,24 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    border-style: solid;
+}
+
+a:link {
+    color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}
+
+/* selected link */
+a:active {
+    color: gray;
 }
