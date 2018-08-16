@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    erb :index
+    erb :home
   end
 
   post '/results' do
@@ -65,6 +65,10 @@ post '/results2' do
   
   get '/about_us' do
     erb :about_us
+  end
+  
+  get '/quizzes' do
+    erb :quizzes
   end
   
   get '/foundation_quiz' do
