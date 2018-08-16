@@ -41,7 +41,7 @@ post '/results2' do
       
   end
 
-post '/results4' do
+  post '/results4' do
     
     letter_array = params.values 
     answer = letter_array.join("")
@@ -49,6 +49,22 @@ post '/results4' do
     puts answer
     return answer
       
+  end
+  
+  get '/home' do
+    erb :home
+  end
+  
+  get '/quiz' do
+    erb :index 
+  end
+  
+  get '/fash_and_beaut' do
+    erb :fashionbeauty
+  end
+  
+  get '/about_us' do
+    erb :about_us
   end
 
 end
